@@ -1,0 +1,31 @@
+{
+    "name": "avinashmphp/textlocal",
+    "description": "Textlocal SMS Channel for Laravel",
+    "homepage": "https://github.com/avinashmphp/textlocal",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Avinash Haneefa",
+            "email": "avinashm.php@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/support": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Avinashmphp\\Textlocal\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Avinashmphp\\Textlocal\\TextlocalServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
